@@ -39,9 +39,9 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_PIC = os.environ.get("START_PIC","https://te.legra.ph/file/91820fa385ba7e60324de-d01cc4acc318dd71e3.jpg")
 START_MSG = """<b>Hello 🤗, {username}
  
-🌟 I'm [Anonymous File Store Bot](https://t.me/AnonFileStoreBot)
+🌟 I'm <a href='https://t.me/AnonFileStoreBot'>Anonymous File Store Bot</a>
 
-✨ Powered By : [Adult Films](https://t.me/AdultFilmsPlus)
+✨ Powered By : <a href='https://t.me/AdultFilmsPlus'>Adult Films</a>
 
 ☀️ Files Will Be Deleted In 10 Mins Due To Copyrights
 
