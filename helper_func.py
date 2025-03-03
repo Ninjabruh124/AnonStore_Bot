@@ -9,7 +9,10 @@ from pyrogram.enums import ChatMemberStatus
 from config import FORCE_SUB_CHANNEL, ADMINS, AUTO_DELETE_TIME, AUTO_DEL_SUCCESS_MSG
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from pyrogram.errors import FloodWait
+from pyrogram import utils as pyroutils
 
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
 async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL:
         return True
